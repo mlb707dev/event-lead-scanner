@@ -39,7 +39,7 @@ At a busy conference booth, lead capture usually breaks down in the same few way
 ## How it works
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Rep signs in<br/>via company SSO] --> B[Scan badge<br/>QR + printed text<br/>or photo]
     B --> C[Badge parsing<br/>name · company · QR payload]
     C --> D[Rep adds context<br/>hot buttons + notes]
